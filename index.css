@@ -1,0 +1,170 @@
+body {
+    background-image: url('../../../../tx.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
+/*header*/
+.demo {
+    display: grid;
+    width: 100ex;
+    height: 200px;
+    grid-template-columns: 80px 400px 200px;
+    grid-template-rows: 100px;
+    grid-gap: 200px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    grid-column-gap: 100px;
+    margin-top: 40px;
+}
+
+.gal img {
+
+
+    width: 100px;
+    height: 200px;
+
+}
+
+.ou1 img {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.ou2 {
+    background-color: lightslategray;
+    width: 600px;
+    font-size: 23px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    background-position: none;
+}
+
+.ou3 {
+
+
+    background-color: lightslategray;
+    width: 600px;
+    background-position: none;
+    color: white;
+}
+
+.ou3 img {
+    width: 30px;
+    height: 30px;
+}
+
+.ou4 img {
+    width: 300px;
+}
+
+/*Menu*/
+
+.damu {
+    display: grid;
+    width: 100ex;
+    height: 200px;
+    grid-template-columns: 300px 400px 400px;
+    grid-template-rows: 0px;
+    grid-gap: 0px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 15px;
+    grid-column-gap: 0px;
+
+
+
+
+}
+
+.menu ul li {
+    margin-top: 0px;
+    list-style: none;
+    float: left;
+    padding: 10px;
+    background-color: none;
+    display: block;
+    width: 110px;
+    height: 30px;
+    color: black;
+    margin: 0px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.menu ul li :hover {
+    background-color: gray;
+    color: white;
+    width: fit-content;
+    font-size: 1.3em;
+}
+
+.menu ul li:hover ul {
+    display: block;
+    width: 90px;
+    position: absolute;
+
+
+
+
+}
+
+/*this Admin hover*/
+.menu ul li ul {
+    display: none;
+
+}
+
+.damu ul li {
+    list-style: none;
+}
+
+.damu ul li:hover {
+    background-color: lightslategray;
+    color: darkblue;
+    font-size: 1.4em;
+}
+
+.damo1 {
+    background-color: none;
+    height: 250px;
+    color: black;
+
+
+}
+
+.damo1 p {
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+}
+
+.damo2 {
+    background-color: none;
+    height: 250px;
+    color: black;
+}
+
+.damo2 p {
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+}
+
+.damo1 ul li {
+    font-size: 20px;
+}
+
+.damo2 ul li {
+    font-size: 20px;
+}
