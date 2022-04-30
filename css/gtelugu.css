@@ -1,0 +1,151 @@
+body{
+   
+
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+    left: 110px;
+    font-style: italic;
+}
+
+.menu {
+    position: absolute;
+    left: 40%;
+    top: 30px;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    padding: 7px;
+    font-style: oblique;
+    font-family: initial;
+    line-height: 10px;
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background-color: green;
+    color: white;
+
+
+}
+
+.menu ul li ul li {
+    display: none;
+    background: lightgreen;
+    margin: 1px;
+
+
+}
+
+.menu ul li:hover ul li {
+    display: block;
+    float: none;
+    text-align: center;
+
+
+
+}
+
+.ca {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.ca img {
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.text {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    left: 20%;
+}
+
+h5 {
+    color: aliceblue;
+    font-style: inherit;
+}
+
+.text h1 {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.facebook {
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    left: 55%;
+}
+
+.facebook img {
+    width: 30x;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.twitter {
+    position: absolute;
+    top: 0px;
+    left: 57%;
+    margin: 3px;
+
+}
+
+.twitter img {
+    width: 25px;
+    height: 26px;
+    border-radius: 100%;
+}
+
+.msg {
+    position: absolute;
+    top: 0px;
+    left: 47%;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.contact {
+    position: absolute;
+    left: 1160px;
+    font-size: 12px;
+}
+
+.email {
+    position: absolute;
+    left: 1160px;
+    font-size: 12px;
+    top: 25px;
+}
+
+.gst{
+    background-color:gray;
+    background-size:cover;
+    position: absolute;
+    width: 100%;
+    top: 29%;
+    color:white;
+}
+h2{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 500px;
+    text-align: center;
+}
